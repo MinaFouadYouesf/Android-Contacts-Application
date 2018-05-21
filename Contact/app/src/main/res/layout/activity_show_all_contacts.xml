@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".showAllContacts">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="search Names...."
+    android:inputType="textVisiblePassword"
+    android:id="@+id/search"
+    android:paddingTop="20dp"
+    android:textColor="@color/colorPrimaryDark"
+
+    />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_item"
+        android:divider="#000000"
+        android:dividerHeight="2px"
+        android:paddingTop="5dp"
+        ></ListView>
+</LinearLayout>
